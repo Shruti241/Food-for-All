@@ -1,0 +1,29 @@
+.pastwork {
+    background-image: url('../assets/img/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+  
+.pastwork .container {
+        padding: 0px 0;
+}
+
+.pastwork .section-title {
+    text-align: center;
+}
+.custom-carousel{
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  

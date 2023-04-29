@@ -1,0 +1,77 @@
+
+
+.text-center {
+    margin-top: 0;
+    padding: 0 0 0 0;
+    background-image: url('../assets/img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+
+  .footer {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .footer a {
+    color: #ffffff;
+  }
+  
+  .footer a:hover {
+    color: #6c757d;
+  }
+  
+  .footer p {
+    margin-bottom: 1rem;
+  }
+  
+  .footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer input[type="email"] {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer input[type="email"]:focus {
+    background-color: transparent;
+    border-color: #ffffff;
+    box-shadow: none;
+  }
+  
+  .footer .btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .footer .text-center {
+    font-size: 14px;
+    padding: 1rem;
+    background-color: #212529;
+  }
+  

@@ -1,0 +1,108 @@
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url('../assets/img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background-image: linear-gradient(to right top, #F59E0B, #F59E0B, #008793, #00bf72, #a8eb12);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  .banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner button:hover svg {
+    margin-left: 25px;
+  }
+  .banner img {
+    animation: updown 3s linear infinite;
+  }
+  
+  @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+  button {
+    background-color: #F59E0B;
+    border-radius: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #FBBF24;
+    transform: translateY(-5px);
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #F59E0B;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  button svg {
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    button {
+      font-size: 16px;
+      padding: 12px 25px;
+    }
+  }
+  
