@@ -1,0 +1,21 @@
+.my-custom-dropdown {
+    background-color: grey;
+    opacity: 0.9;
+    color: #FFFFFF;
+    border: none;
+  }
+  
+  .my-custom-dropdown .dropdown-menu {
+    background-color: #1E1E1E;
+    border: none;
+  }
+  
+  .my-custom-dropdown .dropdown-item {
+    color: #FFFFFF;
+  }
+  
+  .my-custom-dropdown .dropdown-item:hover {
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+  }
+  

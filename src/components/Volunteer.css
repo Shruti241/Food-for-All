@@ -1,0 +1,107 @@
+.form-container {
+    background: url('../assets/img/bg2.png');
+    align-self: center;
+    margin: 0 auto;
+    padding: 100px;
+  }
+  
+.my-form {
+    width:700px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(189, 22, 22, 0.849);
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+
+  }
+  .volunteer_form{
+    width:700px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(238, 197, 197, 0.849);
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .my-form input,
+  .my-form textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 0 2px;
+  }  
+  .my-form input:focus,
+  .my-form textarea:focus {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(189, 22, 22, 0.849);
+  }
+
+  .table th{
+    color: orange;
+  }
+  .table-dark {
+    background-color: #212529;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  .table-dark thead th {
+    background-color: #343a40;
+    border-color: #454d55;
+  }
+  
+  .table-dark tbody+tbody {
+    border-top-color: #454d55;
+  }
+  
+  .table-dark .table-active {
+    background-color: rgba(255, 255, 255, 0.075);
+  }
+  
+  .table-dark .table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+  }
+  
+  .table-dark td,
+  .table-dark th {
+    border-color: #454d55;
+  }
+  
+  .table-dark-bordered {
+    border: 0;
+  }
+  
+  .table-dark-bordered td,
+  .table-dark-bordered th {
+    border-width: 0 0 1px 1px;
+  }
+  
+  .table-dark-bordered tbody+tbody,
+  .table-dark-bordered td,
+  .table-dark-bordered th {
+    border-color: #454d55;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  

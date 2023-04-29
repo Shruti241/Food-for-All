@@ -1,0 +1,9 @@
+.donation-table td,
+.donation-table th {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
